@@ -15,11 +15,11 @@ end
 def swap_elements(array)
   collection = []
   array.each_with_index do |str, i|
-    if i == 1 
+    if i == 1
       collection << array[2]
-    elsif i == 2 
+    elsif i == 2
       collection << array[1]
-    else 
+    else
       collection << array[i]
     end
   end
@@ -27,6 +27,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
+  array.reverse
 end
 
 def kesha_maker(array)
